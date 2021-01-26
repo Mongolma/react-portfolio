@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 8px;
+  font-family: "Encode Sans Expanded"
+}
+
+  li>a.resume:hover{
+    color: #01bf71 !important;
+    transition: 0.2s ease-in-out !important;
+  }
+  #resume:hover{
+    color: #01bf71 !important;
+    transition: 0.2s ease-in-out !important;
+  }
+
+  #resume{
+    font-size: 24px;
+    margin-top: 62px;
+   
+  }
