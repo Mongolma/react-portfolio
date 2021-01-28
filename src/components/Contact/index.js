@@ -5,7 +5,7 @@ import contact from '../../images/contact.svg';
 const Contact = ({lightBg, id, imageStart}) => {
     return (
         <>
-          <ContactContainer lightBg={lightBg} id={id}>
+          <ContactContainer lightBg={lightBg} id='contact'>
               <ContactWrapper>
               <ContactH1>Contact</ContactH1>
               <ContactRow imageStart={imageStart}>
