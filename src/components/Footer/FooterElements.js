@@ -7,7 +7,7 @@ height: -80px;
 
 
 @media screen and (max-width: 768px) {
-     height: 40px;
+     height: -80px;
     // margin-top: 500px;
 }
 `;
@@ -57,7 +57,7 @@ font-size: 2rem;
 margin-left: 24px;
 
 @media screen and (max-width: 728px) {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     padding-bottom: 24px;
 }
 `;
