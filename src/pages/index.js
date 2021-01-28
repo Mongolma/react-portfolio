@@ -6,9 +6,7 @@ import Sidebar from '../components/SideBar'
 import { homeObj } from '../components/InfoSection/Data';
 import Projects from '../components/Projects';
 import Footer from '../components/Footer';
-
-
-
+import Contact from '../components/Contact';
 
 const Home = () => {
 
@@ -19,13 +17,13 @@ const Home = () => {
     
     return (
         <>
-          <Sidebar isOpen={isOpen} toggle={toggle} />
-         <Navbar toggle={toggle}/>
-          <HeroSection />
-         <Info {...homeObj} />
-         <Projects />
-       <Footer />
-        
+        <Sidebar isOpen={isOpen} toggle={toggle} />
+        <Navbar toggle={toggle}/>
+        <HeroSection />
+        <Info {...homeObj} />
+        <Projects />
+        <Contact />
+        <Footer />
         </>
     );
 };

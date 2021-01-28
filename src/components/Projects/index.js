@@ -12,7 +12,7 @@ const Projects = () => {
         <ProjectContainer id='projects'>
             <ProjectH1> Projects </ProjectH1>
             <ProjectWrapper>
-                <a href='https://yigezu1.github.io/world-wide-travel-assistant/' target='_blank'>
+                <a className='paragraph'href='https://yigezu1.github.io/world-wide-travel-assistant/' target='_blank'>
                 <ProjectCard>
                     <ProjectImage src={weather}/>
                     <ProjectH2>Travel assistant</ProjectH2>

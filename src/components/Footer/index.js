@@ -9,8 +9,8 @@ const Footer = () => {
         
                 <FooterLinksContainer>
                     <FooterLinkWrapper>
-                        <FooterLinkItems>
-                            </FooterLinkItems>
+                        {/* <FooterLinkItems>
+                            </FooterLinkItems> */}
                              <SocialIconLink href='//www.linkedin.com/in/mongolmaa-gurbazar-51b770147/' target='_blank' area-label='Linkedin'>
                              <FaLinkedin />
                             </SocialIconLink>

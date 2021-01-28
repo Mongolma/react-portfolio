@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const FooterContainer = styled.footer`
 background-color: #101522;
 height: -80px;
-margin:44px;
+// margin-top: 44px;
 
 
 @media screen and (max-width: 768px) {
@@ -30,9 +30,11 @@ justify-content: center;
 
 export const FooterLinkWrapper = styled.div`
 display: flex;
+padding: 12px;
 
 @media screen and (max-width: 820px) {
-    flex-direction: column;
+text-align: center;
+justify-content: center;
 }
 `;
 
@@ -55,7 +57,7 @@ color:#fff;
 
 export const SocialIconLink = styled.a`
 color: #fff;
-font-size: 3rem;
-margin: 24px;
+font-size: 2rem;
+margin-left: 24px;
 
 `;

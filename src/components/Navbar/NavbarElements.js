@@ -75,6 +75,7 @@ margin-right: -22px;
 
 export const NavItem = styled.li`
 //height: 80px;
+padding: 0 12px;
 `;
 
 export const NavLinks = styled(LinkScroll)`
@@ -86,9 +87,9 @@ padding: 0 1rem;
 height: 100%;
 cursor: pointer;
 
-&.active {
-    border-bottom: 3px solid #01bf71;
-}
+// &.active {
+//     border-bottom: 3px solid #01bf71;
+// }
 
 &:hover{
     color: #01bf71;

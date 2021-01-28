@@ -22,6 +22,9 @@ const Sidebar = ({ isOpen, toggle }) => {
                      </SidebarLink> */}
                      <a className='resume' id='resume' href='../assets/resume.pdf' style={{ textDecoration: 'none', color: 'white', display: 'flex', justifyContent: 'center', alignItems: 'center'}}
                             >Resume</a>
+                     <SidebarLink to='/contact' onClick={toggle}>
+                      Contact
+                     </SidebarLink>
                  </SidebarMenu>
              </SidebarWrapper>
              </SidebarContainer>   

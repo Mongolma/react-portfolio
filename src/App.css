@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 8px;
+  padding: 0;
   font-family: "Encode Sans Expanded"
 }
 
@@ -17,5 +17,8 @@
   #resume{
     font-size: 24px;
     margin-top: 62px;
-   
+    padding: 0 1em;
+  }
+  a{
+    text-decoration: none;
   }
