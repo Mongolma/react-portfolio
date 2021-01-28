@@ -7,11 +7,7 @@ height: -80px;
 
 
 @media screen and (max-width: 768px) {
-     height: 140px;
-    margin-top: 500px;
-}
-@media screen and (max-width: 480px) {
-    // height: 1300px;
+     height: 40px;
     // margin-top: 500px;
 }
 `;
@@ -60,4 +56,8 @@ color: #fff;
 font-size: 2rem;
 margin-left: 24px;
 
+@media screen and (max-width: 728px) {
+    font-size: 1.4rem;
+    padding-bottom: 24px;
+}
 `;
